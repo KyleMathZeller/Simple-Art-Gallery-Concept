@@ -1,0 +1,71 @@
+body {
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 98vw;
+}
+
+.banner {
+    margin: .7rem 0 .7rem 0;
+    margin-inline-end: .5%;
+    text-align: center;
+    background-color: #584065;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    font-size: 40px;
+}
+
+.pricerow {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.photol {
+    max-width: 40vw;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.photocontainerl {
+    text-align: justify;
+}
+
+.blockr {
+    text-align: justify;
+    width: auto;
+    margin-left: 1rem;
+}
+
+.blockl {
+    text-align: justify;
+    width: auto;
+    margin-right: 1rem;
+
+}
+
+.blocktext {
+    background-color: #584065;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: .5rem 1rem .5rem 1rem;
+}
+
+.pricelist {
+    padding-left: 2em;
+    text-indent: -1.3em;
+    display: inline-block;
+}
+
+h2 {
+    background-color: #584065;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace; 
+    padding: .5rem 1rem .5rem 1rem;
+    text-align: center;
+}

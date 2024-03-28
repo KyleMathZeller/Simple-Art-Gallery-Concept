@@ -1,0 +1,35 @@
+body {
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.banner {
+    margin: .7rem 0 .7rem 0;
+    margin-inline-end: .5%;
+    text-align: center;
+    background-color: #584065;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    font-size: 40px;
+}
+.imagerow {
+    display: inline;
+}
+
+.photo{
+    max-width: 33%;
+    min-width: 33%;
+    height: 100%;
+    margin: auto;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.footer{
+    font-size: 23px;
+}

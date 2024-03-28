@@ -1,0 +1,124 @@
+body {
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2 {
+    display: inline-flex;
+    padding: 10px;
+    background-color: #584065;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+}
+
+.submenu {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0px 5px 0px 5px;
+    vertical-align: middle;
+    align-items: center;
+    
+}
+
+.links {
+    padding: 5px 15px 5px 15px;
+}
+
+a {
+    color:#FFFFFF;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menudiv {
+    padding: 0px;
+    width: 1px;
+    height: auto;
+    background-color: #FFFFFF;
+    border-left-style: solid;
+}
+
+.banner {
+    display: inline-flex;
+    margin-top: 15px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.topbanner {
+    display: block;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.bioblock {
+    display: inline-flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.biotext {
+    margin: auto 10px auto 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #584065;
+    padding: 0% 2% 1.5% 2%;
+    border-radius: 10px;
+}
+
+.portrait {
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+.container {
+    position: relative;
+  }
+
+.overlaybanner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 826px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #584065;
+}
+
+.overlayartist {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: inherit;
+    width: inherit;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #584065;
+}
+
+.container:hover .overlayartist{
+    opacity: 1;
+}
+
+.container:hover .overlaybanner{
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
