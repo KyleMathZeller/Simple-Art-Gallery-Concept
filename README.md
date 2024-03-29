@@ -3,10 +3,10 @@ This is just a simple proof of concept for a web page that an Artist could host 
 
 See the website here:  https://kylemathzeller.github.io/Simple-Art-Gallery-Concept/
 
-Background:
-https://pixabay.com/illustrations/silver-background-texture-2143730/
-by BarbaraALane
+Background:<br>
+https://pixabay.com/illustrations/silver-background-texture-2143730/<br>
+by BarbaraALane<br>
 
-Icon:
-https://www.flaticon.com/free-icon/art-studies_5404889?term=art&page=1&position=4&origin=tag&related_id=5404889
+Icon:<br>
+https://www.flaticon.com/free-icon/art-studies_5404889?term=art&page=1&position=4&origin=tag&related_id=5404889<br>
 by Hilmy Abiyyu A.
